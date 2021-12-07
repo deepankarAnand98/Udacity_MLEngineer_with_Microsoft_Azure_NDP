@@ -11,13 +11,13 @@ In this project, we are working with bank telemarketing data. It consists of 39 
 We aim to create a classification model that maps attributes to the target variable and predicts that a new customer will apply for term deposit with the bank based on given features.
 
 The best performing model was a VotingEnsemble which yielded the accuracy of 91.78%.  
-![AutoML Metrics](./images/automl_metrics.png)
+![AutoML Metrics](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/automl_metrics.PNG)
 ![AutoML Accuracy](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/automl_accuracy.PNG)
 The accuracy produced by hyperparameter tuning using Hyperdrive on Logistic Regression is 91.14%.
-![Hyperdrive Accuracy](./images/hyperdrive_accuracy.png)
+![Hyperdrive Accuracy](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/hyperdrive_accuracy.PNG)
 
 Below are the top 10 features as obtained using Global Feature Importance
-![Feature Importance](./images/feature_importance.png)
+![Feature Importance](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/feature_importance.PNG)
 
 The top three features are 
 1. Duration - last contact duration
@@ -65,4 +65,4 @@ The hyperparameter tuning using Hyperdrive was completed in 17m 46s, whereas the
 3. Deploy the model on the web
 
 ## Proof of cluster clean up
-![cluster_delete](./images/delete_cluster.png)
+![cluster_delete](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/delete_cluster.PNG)
