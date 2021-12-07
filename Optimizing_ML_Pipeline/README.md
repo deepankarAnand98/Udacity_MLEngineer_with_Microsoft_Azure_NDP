@@ -12,7 +12,7 @@ We aim to create a classification model that maps attributes to the target varia
 
 The best performing model was a VotingEnsemble which yielded the accuracy of 91.78%.  
 ![AutoML Metrics](./images/automl_metrics.png)
-![AutoML Accuracy](./images/automl_accuracy.png)
+![AutoML Accuracy](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/automl_accuracy.PNG)
 The accuracy produced by hyperparameter tuning using Hyperdrive on Logistic Regression is 91.14%.
 ![Hyperdrive Accuracy](./images/hyperdrive_accuracy.png)
 
