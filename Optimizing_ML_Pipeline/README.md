@@ -65,4 +65,4 @@ The hyperparameter tuning using Hyperdrive was completed in 17m 46s, whereas the
 3. Deploy the model on the web
 
 ## Proof of cluster clean up
-![cluster_delete](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/delete_cluster.PNG)
+![cluster_delete](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/delete_compute_cluster.PNG)
