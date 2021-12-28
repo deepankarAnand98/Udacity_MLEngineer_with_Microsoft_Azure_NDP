@@ -25,7 +25,7 @@ The top three features are
 3. emp_var_rate - employment variation rate 
 
 ### AutoML Normalized Confusion Matrix
-![Normalized Confusion Matrix](./images/confusion_matrix_automl.PNG)
+![Normalized Confusion Matrix](https://github.com/deepankarAnand98/Udacity_MLEngineer_with_Microsoft_Azure_NDP/blob/main/Optimizing_ML_Pipeline/images/confusion_matrix_automl.PNG)
 The confusion matrix by automl shows that our TN ratio is ~96%. Given the features, our model correctly predicted 96 out of 100 times that the person won't subscribe to the term deposit. This will help the band analyze and understand the customers who did not convert and change their marketing approach. 
 However, our model is only ~57.78% successful in predicting those customers who actually took Term deposits. Our True Positive Ratio is ~58, and False Positive Ratio is 42%. This indicates that our model is less efficient in identifying a set of features of the successfully converted customer. In other words, the characteristics of the people who subscribed to the term deposit are almost similar to those who didn't subscribe, which is confusing in our model.
 
