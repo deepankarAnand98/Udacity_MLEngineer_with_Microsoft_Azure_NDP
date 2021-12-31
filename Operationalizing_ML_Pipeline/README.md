@@ -28,48 +28,48 @@ Document the entire process in the form of README file.
 
 ## Key Steps
 1. Create Service Principal 
-![SP](./images/sp_create.png) 
+![SP](./images/sp_create.PNG) 
 Create a service principle. 
 2. Assign Owner Role to the service principal for the workspace
-![Sp_Role](./images/sp_role_assignment.png) 
+![Sp_Role](./images/sp_role_assignment.PNG) 
 Assign Owner Role to the created service principle. Give access to the ML Workspace in ML Studio.
 3. Dataset
-![Dataset](./images/registered_datasets.png)
+![Dataset](./images/registered_datasets.PNG)
 The dataset which we use is bankmarketing data. 
 4. Experiment Complete
-![Experiment Completed](./images/experiment_complete.png)
+![Experiment Completed](./images/experiment_complete.PNG)
 It is the screenshot depicting that our experiment is complete.
 5. Best Model
-![Best model](./images/best_model_automl.png)
+![Best model](./images/best_model_automl.PNG)
 In the screenshot we can see that Voting Ensemble is our best model with 94.758% accuracy. with 100% sampling and experiment took 1 minute 35 seconds to finish.
 6. Enable Application Insights
-![Enable App Insights](./images/app_insights.png)  
+![Enable App Insights](./images/app_insights.PNG)  
 I've enables application insights using AzureML SDk.
 7. View Logs
 ![Logs](./images/logs.png)
 Above image shows the logs of the experiment.
 8. Swagger Runs
-![Swagger](./images/swagger_run.png)
+![Swagger](./images/swagger_run.PNG)
 In this section we can see that we've started our server on port 8000 and got a response of 200. Which means success.
 9. REST Api Calls using `endpoint.py` script
-![REST Api Calls](./images/endpoint_run.png)
+![REST Api Calls](./images/endpoint_run.PNG)
 In this section we have executed the script to predict for two examples, and for both examples we have received "no" as response in the JSON format. 
 10. Apache Benchmarking
 ![Benchmarking](./images/apache_benchmark.png)`
 This is a screenshot of Apache benchmark test on our best model.
 11. Create Pipeline & Endpoint
-![Pipeline Create](./images/pipeline_create.png)
+![Pipeline Create](./images/pipeline_create.PNG)
 Here we create an ML Pipeline and create an endpoint in AzureML Studio Pipeline Designer.
 12. Dataset with AutoML step
-![Pipeline Data With AutoML Step](./images/dataset_automl_run.png)  
+![Pipeline Data With AutoML Step](./images/dataset_automl_run.PNG)  
 Here we can see that our pipeline consists of two steps  
     1. Dataset Output  
     2. AutoML Step
 13. Pulish Pipeline
-![Publish Pipeline](./images/pipeline_rest_endpoint.png)
+![Publish Pipeline](./images/pipeline_rest_endpoint.PNG)
 This screenshot containts the proof of active REST endpoint.
 14. Rundetails in jupyter notebook & Scheduled Run
-![RunDetails](./images/jupyter_steps.png)
+![RunDetails](./images/jupyter_steps.PNG)
 In this screenshot we can see the details in AzureML Studio of Pipeline steps and when these were scheduled
 
 
