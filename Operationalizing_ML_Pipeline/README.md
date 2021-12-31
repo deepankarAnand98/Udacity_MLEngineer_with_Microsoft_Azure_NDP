@@ -6,7 +6,7 @@
 This project is a part of Udacity Machine Learning With Azure Nanodegree. In this project we focus on deveoping ML models, deploying them on the web, and consume them using REST Api. We will also work on creating and deploying a Machine Learning pipeline.
 
 ## Architectural Diagram
-![Architectural Diagram](./images/architectural_diag.png)
+![Architectural Diagram](./images/architectural_diag.PNG)
 ## Steps
 1. **Authentication**  
 In this step we create a service principle and give it access to the ML Workspace in the ML Studio.
